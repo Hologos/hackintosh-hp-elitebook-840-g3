@@ -50,4 +50,4 @@ Necessary file generated with aforementioned website is included in HiDPI folder
 
 ## Issues
 
-*no known issues*
+- Trackpad stops working sometimes, I don't know why for now *(workaround in [Issue #1](https://github.com/Hologos/hackintosh-hp-elitebook-840-g3/issues/1))*.
