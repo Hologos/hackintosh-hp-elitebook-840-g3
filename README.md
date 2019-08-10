@@ -7,9 +7,9 @@ This repo contains my configuration, kexts, etc of my working hackintosh.
 List of supported versions:
 
 - macOS Mojave
-    - versions: 10.14.6 [[master branch]](https://github.com/Hologos/hackintosh-hp-elitebook-840-g3/tree/master)
-    - versions: 10.14.5 [[tag 10.14.5]](https://github.com/Hologos/hackintosh-hp-elitebook-840-g3/tree/10.14.5)
-    - versions: 10.14.4 [[tag 10.14.4]](https://github.com/Hologos/hackintosh-hp-elitebook-840-g3/tree/10.14.4)
+    - 10.14.6 [(checkout this branch)](https://github.com/Hologos/hackintosh-hp-elitebook-840-g3/tree/10.14.6)
+    - 10.14.5 [(checkout this branch)](https://github.com/Hologos/hackintosh-hp-elitebook-840-g3/tree/10.14.5)
+    - 10.14.4 [(checkout this branch)](https://github.com/Hologos/hackintosh-hp-elitebook-840-g3/tree/10.14.4)
 
 ## Specs
 
