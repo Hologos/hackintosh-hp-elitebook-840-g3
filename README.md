@@ -6,6 +6,9 @@ This repo contains my configuration, kexts, etc of my working hackintosh.
 
 List of supported versions:
 
+- macOS Catalina
+    - 10.15.0 [(checkout this branch)](https://github.com/Hologos/hackintosh-hp-elitebook-840-g3/tree/10.15.0)
+
 - macOS Mojave
     - 10.14.6 [(checkout this branch)](https://github.com/Hologos/hackintosh-hp-elitebook-840-g3/tree/10.14.6)
     - 10.14.5 [(checkout this branch)](https://github.com/Hologos/hackintosh-hp-elitebook-840-g3/tree/10.14.5)
@@ -38,9 +41,28 @@ To install hackintosh on your laptop, follow these 2 guides:
 - [[Guide] Booting the OS X installer on LAPTOPS with Clover](https://www.tonymacx86.com/threads/guide-booting-the-os-x-installer-on-laptops-with-clover.148093/)
 - [[Guide] HP ProBook/EliteBook/Zbook using Clover UEFI hotpatch](https://www.tonymacx86.com/threads/guide-hp-probook-elitebook-zbook-using-clover-uefi-hotpatch.261719/)
 
-### Wifi card
+### Wifi + BT card
 
 To make a different Wifi card work, follow this guide [Broadcom WiFi/Bluetooth [Guide]](https://www.tonymacx86.com/threads/broadcom-wifi-bluetooth-guide.242423/). All necessary kexts and changes are included with my EFI for BCM94352Z/AW-CE162NF/DW1560.
+
+**UPDATE (10/2019):** Rehabman is currently not active so I migrated to [Mieze's BT kexts](https://github.com/Mieze/OS-X-BrcmPatchRAM-Catalina). Download latest BT kexts from thread [BrcmPatchRAM2 for 10.15 Catalina](https://www.insanelymac.com/forum/topic/339175-brcmpatchram2-for-1015-catalina-broadcom-bluetooth-firmware-upload/?page=6) (`BrcmPatchRAM3.kext`, `BrcmFirmwareRepo.kext` and `BrcmBluetoothInjector.kext`) and copy them to `/Library/Extensions`.
+
+Since macOS Catalina, system partition is read-only, you have to mount it first as read-write:
+
+```bash
+sudo mount -uw /
+```
+
+To rebuild kext cache:
+
+```bash
+sudo chown -v -R root:wheel /System/Library/Extensions
+sudo touch /System/Library/Extensions
+sudo chmod -v -R 755 /Library/Extensions
+sudo chown -v -R root:wheel /Library/Extensions
+sudo touch /Library/Extensions
+sudo kextcache -i /
+```
 
 ### Enabling HiDPI
 
