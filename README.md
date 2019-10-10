@@ -14,6 +14,10 @@ List of supported versions:
     - 10.14.5 [(checkout this branch)](https://github.com/Hologos/hackintosh-hp-elitebook-840-g3/tree/10.14.5)
     - 10.14.4 [(checkout this branch)](https://github.com/Hologos/hackintosh-hp-elitebook-840-g3/tree/10.14.4)
 
+## Upgrade guides
+
+- [Upgrade from macOS Mojave to macOS Catalina](https://github.com/Hologos/hackintosh-hp-elitebook-840-g3/wiki/Upgrade-from-macOS-Mojave-to-macOS-Catalina)
+
 ## Specs
 
 **BIOS:** N75 (ver. 01.20)
