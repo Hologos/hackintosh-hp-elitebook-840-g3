@@ -435,9 +435,7 @@
 			</array>
 		</dict>
 		<key>Hide</key>
-		<array>
-			<string>Preboot</string>
-		</array>
+		<array/>
 		<key>Mouse</key>
 		<dict>
 			<key>Enabled</key>
