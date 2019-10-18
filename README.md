@@ -77,3 +77,4 @@ Necessary file generated with aforementioned website is included in HiDPI folder
 ## Issues
 
 - Trackpad stops working sometimes, I don't know why for now *(workaround in [Issue #1](https://github.com/Hologos/hackintosh-hp-elitebook-840-g3/issues/1))*.
+- Mute button doesn't work *([Issue #2](https://github.com/Hologos/hackintosh-hp-elitebook-840-g3/issues/2))*.
