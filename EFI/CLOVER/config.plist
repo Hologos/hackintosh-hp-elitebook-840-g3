@@ -455,7 +455,7 @@
 		<key>ScreenResolution</key>
 		<string>1600x900</string>
 		<key>Theme</key>
-		<string>embedded</string>
+		<string>FlatCamp</string>
 	</dict>
 	<key>Graphics</key>
 	<dict>

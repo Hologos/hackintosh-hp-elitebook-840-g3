@@ -47,7 +47,7 @@ To install hackintosh on your laptop, follow these 2 guides:
 
 ### Clover bootloader
 
-Current installed version: v2.4k_r4910
+Current installed version: v2.5k_r5097
 
 ### Wifi + BT card
 
@@ -80,14 +80,14 @@ Necessary file generated with aforementioned website is included in HiDPI folder
 
 ### FileVault 2
 
-I started using FileVault to protect my data. I won't merge the support to master for now as I will leave it in a separate branch [feature/filevault2-support](https://github.com/Hologos/hackintosh-hp-elitebook-840-g3/tree/feature/filevault2-support).
+I started using FileVault to protect my data. I won't merge the support to master for now as I will leave it in a separate branch [feature/filevault2-support-clover-v2.5k](https://github.com/Hologos/hackintosh-hp-elitebook-840-g3/tree/feature/filevault2-support-clover-v2.5k).
 
-If you want to use it as well, just checkout `feature/filevault2-support` branch and update EFI folder accordingly.
+If you want to use it as well, just checkout `feature/filevault2-support-clover-v2.5k` branch and update EFI folder accordingly.
 
 Verify:
 
-1) `EFI/CLOVER/drivers64UEFI/AppleImageCodec-64.efi` is removed (otherwise booting will take 5 minutes).
-2) `EFI/CLOVER/drivers64UEFI/AppleGenericInput.efi` and `EFI/CLOVER/drivers64UEFI/AppleUiSupport.efi` are present.
+1) `EFI/CLOVER/drivers/UEFI/AppleImageCodec.efi` is removed (otherwise booting will take 5 minutes).
+2) `EFI/CLOVER/drivers/UEFI/AppleGenericInput.efi` and `EFI/CLOVER/drivers/UEFI/AppleUiSupport.efi` are present.
 3) `Preboot` partition is not listed in Hidden volumes (or you will not be able to boot).
 
 When this is done, you can enable FileVault in settings.
