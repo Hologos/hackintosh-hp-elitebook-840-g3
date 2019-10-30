@@ -7,6 +7,7 @@ This repo contains my configuration, kexts, etc of my working hackintosh.
 List of supported versions:
 
 - macOS Catalina
+    - 10.15.1 [(checkout this branch)](https://github.com/Hologos/hackintosh-hp-elitebook-840-g3/tree/10.15.1)
     - 10.15.0 [(checkout this branch)](https://github.com/Hologos/hackintosh-hp-elitebook-840-g3/tree/10.15.0)
 
 - macOS Mojave
