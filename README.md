@@ -17,7 +17,7 @@ List of supported versions:
 
 ## Upgrade guides
 
-- [Upgrade from macOS Mojave to macOS Catalina](https://github.com/Hologos/hackintosh-hp-elitebook-840-g3/wiki/Upgrade-from-macOS-Mojave-to-macOS-Catalina)
+- [Upgrade from macOS Mojave to macOS Catalina](https://hologos.github.io/upgrade-from-macos-mojave-to-macos-catalina/)
 
 ## Specs
 
@@ -46,6 +46,8 @@ To install hackintosh on your laptop, follow these 2 guides:
 - [[Guide] Booting the OS X installer on LAPTOPS with Clover](https://www.tonymacx86.com/threads/guide-booting-the-os-x-installer-on-laptops-with-clover.148093/)
 - [[Guide] HP ProBook/EliteBook/Zbook using Clover UEFI hotpatch](https://www.tonymacx86.com/threads/guide-hp-probook-elitebook-zbook-using-clover-uefi-hotpatch.261719/)
 
+**UPDATE (11/2019):** Since Rehabman is not active for a long time, I migrated to Vanilla Hackintosh method. It means that all kexts are installed to EFI partition to `/EFI/CLOVER/kexts/Other/` (instead of `/Library/Extensions`). I don't update kexts using Rehabman's repo anymore, I use [Kext Updater](https://bitbucket.org/profdrluigi/kextupdater/downloads/).
+
 ### Clover bootloader
 
 Current installed version: v2.5k_r5097
@@ -54,24 +56,9 @@ Current installed version: v2.5k_r5097
 
 To make a different Wifi card work, follow this guide [Broadcom WiFi/Bluetooth [Guide]](https://www.tonymacx86.com/threads/broadcom-wifi-bluetooth-guide.242423/). All necessary kexts and changes are included with my EFI for BCM94352Z/AW-CE162NF/DW1560.
 
-**UPDATE (10/2019):** Rehabman is currently not active so I migrated to [Mieze's BT kexts](https://github.com/Mieze/OS-X-BrcmPatchRAM-Catalina). Download latest BT kexts from thread [BrcmPatchRAM2 for 10.15 Catalina](https://www.insanelymac.com/forum/topic/339175-brcmpatchram2-for-1015-catalina-broadcom-bluetooth-firmware-upload/?page=6) (`BrcmPatchRAM3.kext`, `BrcmFirmwareRepo.kext` and `BrcmBluetoothInjector.kext`) and copy them to `/Library/Extensions`.
+**UPDATE (10/2019):** Rehabman is currently not active so I migrated to [acidanthera's BT kexts](https://github.com/acidanthera/BrcmPatchRAM) (Mieze's patches included). These kexts are included in my EFI folder.
 
-Since macOS Catalina, system partition is read-only, you have to mount it first as read-write:
-
-```bash
-sudo mount -uw /
-```
-
-To rebuild kext cache:
-
-```bash
-sudo chown -v -R root:wheel /System/Library/Extensions
-sudo touch /System/Library/Extensions
-sudo chmod -v -R 755 /Library/Extensions
-sudo chown -v -R root:wheel /Library/Extensions
-sudo touch /Library/Extensions
-sudo kextcache -i /
-```
+If you install hackintosh by yourself, download latest BT kexts from Releases page and copy `BrcmPatchRAM3.kext`, `BrcmFirmwareData.kext` and `BrcmBluetoothInjector.kext`) to `/EFI/CLOVER/kexts/Other/`.
 
 ### Enabling HiDPI
 
