@@ -1,4 +1,4 @@
 .*
 !/.gitignore
-/EFI*/Clover_Install_Log.txt
+/EFI/Clover_Install_Log.txt
 /EFI/CLOVER/misc/preboot.log
