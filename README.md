@@ -17,7 +17,7 @@ List of supported versions:
 
 ## Upgrade guides
 
-- [Upgrade from macOS Mojave to macOS Catalina](https://github.com/Hologos/hackintosh-hp-elitebook-840-g3/wiki/Upgrade-from-macOS-Mojave-to-macOS-Catalina)
+- [Upgrade from macOS Mojave to macOS Catalina](https://hologos.github.io/upgrade-from-macos-mojave-to-macos-catalina/)
 
 ## Specs
 
