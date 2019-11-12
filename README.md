@@ -71,8 +71,3 @@ Necessary file generated with aforementioned website is included in HiDPI folder
 ### FileVault 2
 
 I started using FileVault to protect my data. All necessary drivers are present in the EFI folder.
-
-## Issues
-
-- Trackpad stops working sometimes, I don't know why for now *(workaround in [Issue #1](https://github.com/Hologos/hackintosh-hp-elitebook-840-g3/issues/1))*.
-- Mute button doesn't work *([Issue #2](https://github.com/Hologos/hackintosh-hp-elitebook-840-g3/issues/2))*.
