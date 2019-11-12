@@ -2,6 +2,8 @@
 
 This repo contains my configuration, kexts, etc of my working hackintosh.
 
+You can also find useful articles on [my blog](https://hologos.github.io).
+
 ## macOS versions
 
 List of supported versions:
