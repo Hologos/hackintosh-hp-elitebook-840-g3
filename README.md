@@ -4,11 +4,16 @@ This repo contains my configuration, kexts, etc of my working hackintosh.
 
 You can also find useful articles on [my blog](https://hologos.github.io).
 
+## Important notice
+
+This is the last update built on Clover bootloader. I will switch to OpenCore bootloader with macOS 11.0.
+
 ## macOS versions
 
 List of supported versions:
 
 - macOS Catalina
+    - 10.15.7 [(checkout this branch)](https://github.com/Hologos/hackintosh-hp-elitebook-840-g3/tree/10.15.7)
     - 10.15.1 [(checkout this branch)](https://github.com/Hologos/hackintosh-hp-elitebook-840-g3/tree/10.15.1)
     - 10.15.0 [(checkout this branch)](https://github.com/Hologos/hackintosh-hp-elitebook-840-g3/tree/10.15.0)
 
