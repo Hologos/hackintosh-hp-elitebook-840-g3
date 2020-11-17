@@ -76,3 +76,9 @@ Necessary file generated with aforementioned website is included in HiDPI folder
 ### FileVault 2
 
 I started using FileVault to protect my data. All necessary drivers are present in the EFI folder.
+
+### Donation
+
+If you like what I do and you found this repository helpful, you can
+
+<a href="https://www.buymeacoffee.com/hologos" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
