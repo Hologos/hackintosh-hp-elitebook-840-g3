@@ -86,3 +86,9 @@ I started using FileVault to protect my data. All necessary drivers are present 
 
 - Trackpad stops working sometimes, I don't know why for now *(workaround in [Issue #1](https://github.com/Hologos/hackintosh-hp-elitebook-840-g3/issues/1))*.
 - Mute button doesn't work *([Issue #2](https://github.com/Hologos/hackintosh-hp-elitebook-840-g3/issues/2))*.
+
+### Donation
+
+If you like what I do and you found this repository helpful, you can
+
+<a href="https://www.buymeacoffee.com/hologos" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
