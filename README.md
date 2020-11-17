@@ -57,7 +57,7 @@ To install hackintosh on your laptop, follow these 2 guides:
 
 ### Clover bootloader
 
-Current installed version: v2.5k_r5097
+Current installed version: v2.5k_r5122
 
 ### Wifi + BT card
 
